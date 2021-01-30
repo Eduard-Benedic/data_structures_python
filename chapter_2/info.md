@@ -83,4 +83,15 @@ In the bottom-up approach the functionality of a specific component is tested in
 **Regression testing** - when the code enters maintability all the previous tests are re run to ensure that the software works properly
 
 
-# Class Definitions
+
+# Iterators
+An iterator is an object that supports the __iter__ and __next__ methods.
+
+By convention the __iter__ method return the instance and the __next__ method will return the next element if there is one or will raise an **StopIteration** exception.
+
+Another way of creating an iterator is by defining a __len__ and __getitem__ method on the class and Python will automatically will support iteration on that object.
+
+
+
+# Inheritance
+
