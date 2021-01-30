@@ -58,7 +58,7 @@ if __name__ == '__main__':
     wallet.append(CreditCard( 'John Bowman' , 'California Savings' ,
     '5391 0375 9387 5309' , 2500) )
     wallet.append(CreditCard( 'John Bowman' , 'California Federal' ,
-    '3485 0399 3395 1954' , '3500') )
+    '3485 0399 3395 1954' , 3500) )
     wallet.append(CreditCard( 'John Bowman' , 'California Finance' ,
     '5391 0375 9387 5309', 5000))
     
@@ -80,6 +80,7 @@ if __name__ == '__main__':
         print()
 
 class PredatoryCreditCard(CreditCard):
+    OVERLIMIT_FEE = 5
 
     """ An extension to CreditCard that compounds interest and fees """
     def __init__(self, customer, bank, acnt, limit, apr):
@@ -89,10 +90,11 @@ class PredatoryCreditCard(CreditCard):
     def charge(self, price):
         success = super().charge(price)
         if not success:
-            self._balance -= 5
+            self._balance += PredatoryCreditCard.OVERLIMIT_FEE
         return success
     
     def process_month(self):
         if self._balance > 0:
             monthly_factor = pow(1 + self._apr, 1 / 12)
             self._balance *= monthly_factor
+

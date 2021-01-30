@@ -122,3 +122,24 @@ In **Arithmetic Sequence** the difference between one term and the other is a co
 {a, a + d, a + 2d, a + 3d, ...}
 a - is the first term
 d - the difference between the tersm (known as "common difference")
+
+
+# Namespaces and Object-Orientation
+
+Instant namespace
+Class namespace - this namespace is used to manage members that are to be shared by all instances of a class
+
+
+Python uses **dynamic dispatching** when resolving a name resolution which means that it figures out the attribute that has been accessed at runtime comapared to some other statically typed languages such as Java and C++ that use static dispatching.
+
+
+## Shallow and Deep Copying
+
+List - a container of references. Calling list(obj) will create a new container of references to the specific values. Adding or removing is possible without affecting the original obj, however when it comes to editing the references are pointing to the actual initial object !!
+
+
+This is what is knows as **Shallow Copy**
+
+To create a deep copy **copy** modules offers a solutin in Python.
+
+A deep copy represents to the creation of an identical copy of that obj.
