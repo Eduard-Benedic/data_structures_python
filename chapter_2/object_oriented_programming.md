@@ -95,3 +95,27 @@ Another way of creating an iterator is by defining a __len__ and __getitem__ met
 
 # Inheritance
 
+Let's say we have this hierarchy:  Building -> House -> Three story ouse
+                                                     -> Ranch
+Building is a **super set of house** and the three story house and ranch is a **subset of house** (mathematical terms)
+In OOP tersm we call Building a **base class, parent class, super class** and the other classes that **inherit** from it as **derived class** or **sub class** or **child class**.
+This organization is reffered as a **Is a relationship**.
+
+
+A subclass can **specialize** an behaviors in two ways.
+1. Overriding existing methods
+2. Implementing new ones.
+
+
+# Math
+
+Progression
+
+## Geometric Sequences
+In a **Geometric Sequence** each term is found by multiplying the previous term by a constant.
+In General such as sequence is written like:
+{a, ar, ar^2, ar^3, ar^4...}
+a - first term
+r = common ration
+
+In **Arithmetic Sequence** the difference between one term and the other is a constant.
