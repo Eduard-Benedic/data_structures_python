@@ -119,3 +119,6 @@ a - first term
 r = common ration
 
 In **Arithmetic Sequence** the difference between one term and the other is a constant.
+{a, a + d, a + 2d, a + 3d, ...}
+a - is the first term
+d - the difference between the tersm (known as "common difference")
