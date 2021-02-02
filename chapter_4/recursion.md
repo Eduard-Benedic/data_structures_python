@@ -17,6 +17,7 @@ This activation record contains a namespace for storing the function call's para
 
 
 
-# Drawing an English Ruler
-
+## Drawing an English Ruler
 Fractal - a shape that has a self-recursive structure at various levels of magnification.
+
+## Binary Search
