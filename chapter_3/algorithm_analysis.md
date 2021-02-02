@@ -88,3 +88,16 @@ nomial - term  => Polynomials - many terms
 f(n) = b^n
 b - base
 n - exponent
+
+
+
+
+# The "Big O " Notation
+
+Suppose we have a function f(n) and g(n) that maps positive integers to real positive integers. We say that f(n) is the Big O of g(n) if 
+f(n) <= c g(n) - if there is an n >= n0 and c > 0
+
+# The Big Omega 
+The opposite of Big O
+ 
+# The big Teta
