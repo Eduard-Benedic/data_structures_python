@@ -20,8 +20,18 @@ This activation record contains a namespace for storing the function call's para
 ## Drawing an English Ruler
 Fractal - a shape that has a self-recursive structure at various levels of magnification.
 
-## Binary Search
+## Binary Recursion
+When a function makes two recursive calls, it is said to be **binary recursion**
 
 
 # Multiple recursion
 Process in which a function may make more than two recursive calls.
+
+
+## Designing Recursive Algorithms
+In general an algorithm that uses recursion typically has the following form.
+1. **Test for base case** 
+2. **Recur**
+
+
+Tail Recursion
