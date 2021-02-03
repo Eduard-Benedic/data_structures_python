@@ -21,3 +21,7 @@ This activation record contains a namespace for storing the function call's para
 Fractal - a shape that has a self-recursive structure at various levels of magnification.
 
 ## Binary Search
+
+
+# Multiple recursion
+Process in which a function may make more than two recursive calls.
