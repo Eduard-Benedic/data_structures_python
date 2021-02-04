@@ -1,0 +1,4 @@
+# Queues
+Collection of objects that are inserted and removed according to the **first-in, first-out** (FIFO) principle.
+
+The Queue ADT (Abstract Data Type)
